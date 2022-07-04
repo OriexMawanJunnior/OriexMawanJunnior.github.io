@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>gift</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap" rel="stylesheet">
+	<style>
+        * {
+	margin: 0;
+	padding: 0;
+	box-sizing: 0;
+    }
+    body {
+        overflow: hidden;
+        background-color: #C48FC1;
+    }
+
+    h3 {
+        font-family: 'Roboto', sans-serif;
+        color: #9FA6D1;
+        margin-top: 30px;
+        margin-left: 65px;
+        margin-bottom: 10px;
+    }
+
+    hr {
+        width: 95%;
+        margin: auto;
+        border: 1px solid #9FA6D1;
+    }
+
+    .container {
+        position: absolute;
+        margin-top: 130px;
+        margin-left: 700px;
+    }
+
+    h1 {
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+        font-size: 72px;
+        color: #FDE0CA;
+        text-align: right;
+    }
+    p {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 300;
+        font-size: 36px;
+        color: #FDE0CA;
+    }
+
+    .gift {
+        position: absolute;
+        bottom: -10px;
+        right: 380px;	
+        animation: kado infinite 1s ease alternate-reverse;
+        z-index: -1;
+    }
+
+    h2 {
+        font-family: 'Roboto', sans-serif;
+        font-size: 50px;
+        text-align: left;
+        font-weight: bold;
+        color: #E11D26;
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 25%);
+        display: block;
+    }
+
+    .bottom-gift {	
+        margin-top: 40px;
+    }
+
+    @keyframes kado{
+        0% {
+            margin-top: 170px;
+        }
+        100% {
+            margin-top: 176px;
+        }
+    }
+
+    @media (max-width: 576px){
+        h1 {
+            font-size: 92px;
+        }
+        p {
+            font-size: 48px;
+        }
+        .gift {
+            bottom: 10px;
+            right: 123px;	
+            transform: scale(1.3);
+        }
+        .gift {
+            z-index: 99;
+        }
+    }
+    </style>
+</head>
+<body>
+
+	<!-- ucapan -->
+
+	<h3>Jasmine Day   <a href="jasmine.html">klik untuk kembali</a></h3><hr>
+    <!-- kado dan nama -->
+
+    <div class="gift">
+        <img class="top-gift" src="../img/topg.png" width="300px"><br>
+        <h2>ada playlist spotify <a href="https://open.spotify.com/playlist/21Ng7fmxXbeSviwn1Gf9Kp?si=PhuC2nEjTZaZrg5o_zK4Ug&utm_source=copy-link">klik disini</a></h2>
+        <img class="bottom-gift" src="../img/botg.png" width="300px">
+    </div>
+
+	<div class="container">
+		<h1>
+			Kado <br> Pertama
+		</h1>
+		<p>Semoga Suka</p>
+	</div>
+
+
+</body>
+</html>
